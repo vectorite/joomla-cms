@@ -1,0 +1,160 @@
+/**
+* Bootstrap Styles for JCE Editor (Backend) by Frank Delventhal - deweso.de
+* Version 1.0 from 2013-03-13
+*
+* this css-Code came from deweso.de - Frank Delventhal (https://www.deweso.de)
+* and is based on the works of Bootstrap (http://twitter.github.com/bootstrap/) and JCE-editor (http://www.joomlacontenteditor.net/)
+*
+* First: Your used template has to be based on bootstrap to be working correctly
+*
+* just some CSS to be used as JCE Custom class so you can use Bootstrap Classes in your articles
+*
+* A) Upload the "MyEditor.css"-file somewhere for your liking for example in the CSS Folder of your used Template "templates/somebootstraptemplate/css/MyEditor.css"
+* B) go to Components > JCE Editor > Global Configuration
+*    "Formating & Display"
+*    Editor Styles set to: "Custom CSS Files"
+*    Custom CSS Files: "templates/somebootstraptemplate/css/MyEditor.css"
+* C) Test
+*
+* For testing:
+* User HTML-Editing or "show/hide" to enter the text-html code into an article
+* use normal formating (show HTML) and the entered Text should be formated.
+* the Trick is that these formats can be only seen now in the JCE Editor,
+* but not in the normal front-end.
+*/
+/* Floats (originally not Bootstap) */
+.float-left { float: left; }
+
+.float-right { float: right; }
+
+/* custom Margins I found usefull */
+.margin-left-bottom { margin: 0 20px 20px 0; }
+
+.margin-right-bottom { margin: 0 0 20px 20px; }
+
+.margin-bottom { margin: 0 0 20px 0; }
+
+.margin-left { margin: 0 20px 0 0; }
+
+.margin-right { margin: 0 0 0 20px; }
+
+/* Text-Aligns */
+.text-left, td.text-left, th.text-left { text-align: left; }
+
+.text-center, td.text-center, th.text-center { text-align: center; }
+
+.text-right, td.text-right, th.text-right { text-align: right; }
+
+/* Image Stylings */
+.img-rounded { -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+
+.img-polaroid { padding: 4px; background-color: #fff; border: 1px solid #cccccc; border: 1px solid rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+
+.img-circle { -webkit-border-radius: 500px; -moz-border-radius: 500px; border-radius: 500px; }
+
+/* Text Colors */
+.muted { color: #999999; }
+
+.text-warning { color: #c09853; }
+
+.text-error { color: #b94a48; }
+
+.text-info { color: #3a87ad; }
+
+.text-success { color: #468847; }
+
+/* CLEARFIX */
+.clearfix { background: #DDD; border: 1px dotted #dd8888; }
+
+.clearfix:before { content: " ~~~~~~~~~~~~~~~~  clearfix (hidden element, that clears floats) ~~~~~~~~~~~~~~~~  "; }
+
+/* SPAN */
+.row-fluid:before { content: "~~~ ROW-FLUID ~~~ "; }
+
+.row-fluid { border: 3px solid #8544ff; }
+
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 { border: 3px dotted grey; }
+
+.span1 { border-color: #335aff; background-image: -webkit-linear-gradient(-45deg, #ffffff 25%, rgba(51, 90, 255, 0.25) 25%, rgba(51, 90, 255, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(51, 90, 255, 0.25) 75%, rgba(51, 90, 255, 0.25)); background-image: -moz-linear-gradient(-45deg, #ffffff 25%, rgba(51, 90, 255, 0.25) 25%, rgba(51, 90, 255, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(51, 90, 255, 0.25) 75%, rgba(51, 90, 255, 0.25)); background-image: -o-linear-gradient(-45deg, #ffffff 25%, rgba(51, 90, 255, 0.25) 25%, rgba(51, 90, 255, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(51, 90, 255, 0.25) 75%, rgba(51, 90, 255, 0.25)); background-image: linear-gradient(-45deg, #ffffff 25%, rgba(51, 90, 255, 0.25) 25%, rgba(51, 90, 255, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(51, 90, 255, 0.25) 75%, rgba(51, 90, 255, 0.25)); background-repeat: repeat; -webkit-background-size: 40px 40px; -moz-background-size: 40px 40px; -o-background-size: 40px 40px; background-size: 40px 40px; }
+
+.span2 { border-color: #48adff; background-image: -webkit-linear-gradient(-45deg, #ffffff 25%, rgba(72, 173, 255, 0.25) 25%, rgba(72, 173, 255, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(72, 173, 255, 0.25) 75%, rgba(72, 173, 255, 0.25)); background-image: -moz-linear-gradient(-45deg, #ffffff 25%, rgba(72, 173, 255, 0.25) 25%, rgba(72, 173, 255, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(72, 173, 255, 0.25) 75%, rgba(72, 173, 255, 0.25)); background-image: -o-linear-gradient(-45deg, #ffffff 25%, rgba(72, 173, 255, 0.25) 25%, rgba(72, 173, 255, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(72, 173, 255, 0.25) 75%, rgba(72, 173, 255, 0.25)); background-image: linear-gradient(-45deg, #ffffff 25%, rgba(72, 173, 255, 0.25) 25%, rgba(72, 173, 255, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(72, 173, 255, 0.25) 75%, rgba(72, 173, 255, 0.25)); background-repeat: repeat; -webkit-background-size: 40px 40px; -moz-background-size: 40px 40px; -o-background-size: 40px 40px; background-size: 40px 40px; }
+
+.span3 { border-color: #53ccff; background-image: -webkit-linear-gradient(-45deg, #ffffff 25%, rgba(83, 204, 255, 0.25) 25%, rgba(83, 204, 255, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(83, 204, 255, 0.25) 75%, rgba(83, 204, 255, 0.25)); background-image: -moz-linear-gradient(-45deg, #ffffff 25%, rgba(83, 204, 255, 0.25) 25%, rgba(83, 204, 255, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(83, 204, 255, 0.25) 75%, rgba(83, 204, 255, 0.25)); background-image: -o-linear-gradient(-45deg, #ffffff 25%, rgba(83, 204, 255, 0.25) 25%, rgba(83, 204, 255, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(83, 204, 255, 0.25) 75%, rgba(83, 204, 255, 0.25)); background-image: linear-gradient(-45deg, #ffffff 25%, rgba(83, 204, 255, 0.25) 25%, rgba(83, 204, 255, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(83, 204, 255, 0.25) 75%, rgba(83, 204, 255, 0.25)); background-repeat: repeat; -webkit-background-size: 40px 40px; -moz-background-size: 40px 40px; -o-background-size: 40px 40px; background-size: 40px 40px; }
+
+.span4 { border-color: #4bffec; background-image: -webkit-linear-gradient(-45deg, #ffffff 25%, rgba(75, 255, 236, 0.25) 25%, rgba(75, 255, 236, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(75, 255, 236, 0.25) 75%, rgba(75, 255, 236, 0.25)); background-image: -moz-linear-gradient(-45deg, #ffffff 25%, rgba(75, 255, 236, 0.25) 25%, rgba(75, 255, 236, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(75, 255, 236, 0.25) 75%, rgba(75, 255, 236, 0.25)); background-image: -o-linear-gradient(-45deg, #ffffff 25%, rgba(75, 255, 236, 0.25) 25%, rgba(75, 255, 236, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(75, 255, 236, 0.25) 75%, rgba(75, 255, 236, 0.25)); background-image: linear-gradient(-45deg, #ffffff 25%, rgba(75, 255, 236, 0.25) 25%, rgba(75, 255, 236, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(75, 255, 236, 0.25) 75%, rgba(75, 255, 236, 0.25)); background-repeat: repeat; -webkit-background-size: 40px 40px; -moz-background-size: 40px 40px; -o-background-size: 40px 40px; background-size: 40px 40px; }
+
+.span5 { border-color: #49ffab; background-image: -webkit-linear-gradient(-45deg, #ffffff 25%, rgba(73, 255, 171, 0.25) 25%, rgba(73, 255, 171, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(73, 255, 171, 0.25) 75%, rgba(73, 255, 171, 0.25)); background-image: -moz-linear-gradient(-45deg, #ffffff 25%, rgba(73, 255, 171, 0.25) 25%, rgba(73, 255, 171, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(73, 255, 171, 0.25) 75%, rgba(73, 255, 171, 0.25)); background-image: -o-linear-gradient(-45deg, #ffffff 25%, rgba(73, 255, 171, 0.25) 25%, rgba(73, 255, 171, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(73, 255, 171, 0.25) 75%, rgba(73, 255, 171, 0.25)); background-image: linear-gradient(-45deg, #ffffff 25%, rgba(73, 255, 171, 0.25) 25%, rgba(73, 255, 171, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(73, 255, 171, 0.25) 75%, rgba(73, 255, 171, 0.25)); background-repeat: repeat; -webkit-background-size: 40px 40px; -moz-background-size: 40px 40px; -o-background-size: 40px 40px; background-size: 40px 40px; }
+
+.span6 { border-color: #6bffa9; background-image: -webkit-linear-gradient(-45deg, #ffffff 25%, rgba(107, 255, 169, 0.25) 25%, rgba(107, 255, 169, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(107, 255, 169, 0.25) 75%, rgba(107, 255, 169, 0.25)); background-image: -moz-linear-gradient(-45deg, #ffffff 25%, rgba(107, 255, 169, 0.25) 25%, rgba(107, 255, 169, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(107, 255, 169, 0.25) 75%, rgba(107, 255, 169, 0.25)); background-image: -o-linear-gradient(-45deg, #ffffff 25%, rgba(107, 255, 169, 0.25) 25%, rgba(107, 255, 169, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(107, 255, 169, 0.25) 75%, rgba(107, 255, 169, 0.25)); background-image: linear-gradient(-45deg, #ffffff 25%, rgba(107, 255, 169, 0.25) 25%, rgba(107, 255, 169, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(107, 255, 169, 0.25) 75%, rgba(107, 255, 169, 0.25)); background-repeat: repeat; -webkit-background-size: 40px 40px; -moz-background-size: 40px 40px; -o-background-size: 40px 40px; background-size: 40px 40px; }
+
+.span7 { border-color: #5aff47; background-image: -webkit-linear-gradient(-45deg, #ffffff 25%, rgba(90, 255, 71, 0.25) 25%, rgba(90, 255, 71, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(90, 255, 71, 0.25) 75%, rgba(90, 255, 71, 0.25)); background-image: -moz-linear-gradient(-45deg, #ffffff 25%, rgba(90, 255, 71, 0.25) 25%, rgba(90, 255, 71, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(90, 255, 71, 0.25) 75%, rgba(90, 255, 71, 0.25)); background-image: -o-linear-gradient(-45deg, #ffffff 25%, rgba(90, 255, 71, 0.25) 25%, rgba(90, 255, 71, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(90, 255, 71, 0.25) 75%, rgba(90, 255, 71, 0.25)); background-image: linear-gradient(-45deg, #ffffff 25%, rgba(90, 255, 71, 0.25) 25%, rgba(90, 255, 71, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(90, 255, 71, 0.25) 75%, rgba(90, 255, 71, 0.25)); background-repeat: repeat; -webkit-background-size: 40px 40px; -moz-background-size: 40px 40px; -o-background-size: 40px 40px; background-size: 40px 40px; }
+
+.span8 { border-color: #cbff87; background-image: -webkit-linear-gradient(-45deg, #ffffff 25%, rgba(203, 255, 135, 0.25) 25%, rgba(203, 255, 135, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(203, 255, 135, 0.25) 75%, rgba(203, 255, 135, 0.25)); background-image: -moz-linear-gradient(-45deg, #ffffff 25%, rgba(203, 255, 135, 0.25) 25%, rgba(203, 255, 135, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(203, 255, 135, 0.25) 75%, rgba(203, 255, 135, 0.25)); background-image: -o-linear-gradient(-45deg, #ffffff 25%, rgba(203, 255, 135, 0.25) 25%, rgba(203, 255, 135, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(203, 255, 135, 0.25) 75%, rgba(203, 255, 135, 0.25)); background-image: linear-gradient(-45deg, #ffffff 25%, rgba(203, 255, 135, 0.25) 25%, rgba(203, 255, 135, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(203, 255, 135, 0.25) 75%, rgba(203, 255, 135, 0.25)); background-repeat: repeat; -webkit-background-size: 40px 40px; -moz-background-size: 40px 40px; -o-background-size: 40px 40px; background-size: 40px 40px; }
+
+.span9 { border-color: #faff04; background-image: -webkit-linear-gradient(-45deg, #ffffff 25%, rgba(250, 255, 4, 0.25) 25%, rgba(250, 255, 4, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(250, 255, 4, 0.25) 75%, rgba(250, 255, 4, 0.25)); background-image: -moz-linear-gradient(-45deg, #ffffff 25%, rgba(250, 255, 4, 0.25) 25%, rgba(250, 255, 4, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(250, 255, 4, 0.25) 75%, rgba(250, 255, 4, 0.25)); background-image: -o-linear-gradient(-45deg, #ffffff 25%, rgba(250, 255, 4, 0.25) 25%, rgba(250, 255, 4, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(250, 255, 4, 0.25) 75%, rgba(250, 255, 4, 0.25)); background-image: linear-gradient(-45deg, #ffffff 25%, rgba(250, 255, 4, 0.25) 25%, rgba(250, 255, 4, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(250, 255, 4, 0.25) 75%, rgba(250, 255, 4, 0.25)); background-repeat: repeat; -webkit-background-size: 40px 40px; -moz-background-size: 40px 40px; -o-background-size: 40px 40px; background-size: 40px 40px; }
+
+.span10 { border-color: #ffb162; background-image: -webkit-linear-gradient(-45deg, #ffffff 25%, rgba(255, 177, 98, 0.25) 25%, rgba(255, 177, 98, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(255, 177, 98, 0.25) 75%, rgba(255, 177, 98, 0.25)); background-image: -moz-linear-gradient(-45deg, #ffffff 25%, rgba(255, 177, 98, 0.25) 25%, rgba(255, 177, 98, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(255, 177, 98, 0.25) 75%, rgba(255, 177, 98, 0.25)); background-image: -o-linear-gradient(-45deg, #ffffff 25%, rgba(255, 177, 98, 0.25) 25%, rgba(255, 177, 98, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(255, 177, 98, 0.25) 75%, rgba(255, 177, 98, 0.25)); background-image: linear-gradient(-45deg, #ffffff 25%, rgba(255, 177, 98, 0.25) 25%, rgba(255, 177, 98, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(255, 177, 98, 0.25) 75%, rgba(255, 177, 98, 0.25)); background-repeat: repeat; -webkit-background-size: 40px 40px; -moz-background-size: 40px 40px; -o-background-size: 40px 40px; background-size: 40px 40px; }
+
+.span11 { border-color: #ff9886; background-image: -webkit-linear-gradient(-45deg, #ffffff 25%, rgba(255, 152, 134, 0.25) 25%, rgba(255, 152, 134, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(255, 152, 134, 0.25) 75%, rgba(255, 152, 134, 0.25)); background-image: -moz-linear-gradient(-45deg, #ffffff 25%, rgba(255, 152, 134, 0.25) 25%, rgba(255, 152, 134, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(255, 152, 134, 0.25) 75%, rgba(255, 152, 134, 0.25)); background-image: -o-linear-gradient(-45deg, #ffffff 25%, rgba(255, 152, 134, 0.25) 25%, rgba(255, 152, 134, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(255, 152, 134, 0.25) 75%, rgba(255, 152, 134, 0.25)); background-image: linear-gradient(-45deg, #ffffff 25%, rgba(255, 152, 134, 0.25) 25%, rgba(255, 152, 134, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(255, 152, 134, 0.25) 75%, rgba(255, 152, 134, 0.25)); background-repeat: repeat; -webkit-background-size: 40px 40px; -moz-background-size: 40px 40px; -o-background-size: 40px 40px; background-size: 40px 40px; }
+
+.span12 { border-color: red; background-image: -webkit-linear-gradient(-45deg, #ffffff 25%, rgba(255, 0, 0, 0.25) 25%, rgba(255, 0, 0, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(255, 0, 0, 0.25) 75%, rgba(255, 0, 0, 0.25)); background-image: -moz-linear-gradient(-45deg, #ffffff 25%, rgba(255, 0, 0, 0.25) 25%, rgba(255, 0, 0, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(255, 0, 0, 0.25) 75%, rgba(255, 0, 0, 0.25)); background-image: -o-linear-gradient(-45deg, #ffffff 25%, rgba(255, 0, 0, 0.25) 25%, rgba(255, 0, 0, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(255, 0, 0, 0.25) 75%, rgba(255, 0, 0, 0.25)); background-image: linear-gradient(-45deg, #ffffff 25%, rgba(255, 0, 0, 0.25) 25%, rgba(255, 0, 0, 0.25) 50%, #ffffff 50%, #ffffff 75%, rgba(255, 0, 0, 0.25) 75%, rgba(255, 0, 0, 0.25)); background-repeat: repeat; -webkit-background-size: 40px 40px; -moz-background-size: 40px 40px; -o-background-size: 40px 40px; background-size: 40px 40px; }
+
+.span1:before { content: "~~~ ROW-FLUID.SPAN1 (striping is only shown in JCE) ~~~ "; }
+
+.span2:before { content: "~~~ ROW-FLUID.SPAN2 (striping is only shown in JCE) ~~~ "; }
+
+.span3:before { content: "~~~ ROW-FLUID.SPAN3 (striping is only shown in JCE) ~~~ "; }
+
+.span4:before { content: "~~~ ROW-FLUID.SPAN4 (striping is only shown in JCE) ~~~ "; }
+
+.span5:before { content: "~~~ ROW-FLUID.SPAN5 (striping is only shown in JCE) ~~~ "; }
+
+.span6:before { content: "~~~ ROW-FLUID.SPAN6 (striping is only shown in JCE) ~~~ "; }
+
+.span7:before { content: "~~~ ROW-FLUID.SPAN7 (striping is only shown in JCE) ~~~ "; }
+
+.span8:before { content: "~~~ ROW-FLUID.SPAN8 (striping is only shown in JCE) ~~~ "; }
+
+.span9:before { content: "~~~ ROW-FLUID.SPAN9 (striping is only shown in JCE) ~~~ "; }
+
+.span10:before { content: "~~~ ROW-FLUID.SPAN10 (striping is only shown in JCE) ~~~ "; }
+
+.span11:before { content: "~~~ ROW-FLUID.SPAN11 (striping is only shown in JCE) ~~~ "; }
+
+.span12:before { content: "~~~ ROW-FLUID.SPAN12 (striping is only shown in JCE) ~~~ "; }
+
+.row-fluid { width: 100%; *zoom: 1; }
+
+.row-fluid:before, .row-fluid:after { display: table; content: ""; line-height: 0; }
+
+.row-fluid:after { clear: both; }
+
+.row-fluid [class*="span"] { display: block; width: 100%; min-height: 30px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; float: left; margin-left: 2.12766%; *margin-left: 2.07447%; }
+
+.row-fluid [class*="span"]:first-child { margin-left: 0; }
+
+.row-fluid .controls-row [class*="span"] + [class*="span"] { margin-left: 2.12766%; }
+
+.row-fluid .span12 { width: 100%; *width: 99.94681%; }
+
+.row-fluid .span11 { width: 91.48936%; *width: 91.43617%; }
+
+.row-fluid .span10 { width: 82.97872%; *width: 82.92553%; }
+
+.row-fluid .span9 { width: 74.46809%; *width: 74.41489%; }
+
+.row-fluid .span8 { width: 65.95745%; *width: 65.90426%; }
+
+.row-fluid .span7 { width: 57.44681%; *width: 57.39362%; }
+
+.row-fluid .span6 { width: 48.93617%; *width: 48.88298%; }
+
+.row-fluid .span5 { width: 40.42553%; *width: 40.37234%; }
+
+.row-fluid .span4 { width: 31.91489%; *width: 31.8617%; }
+
+.row-fluid .span3 { width: 23.40426%; *width: 23.35106%; }
+
+.row-fluid .span2 { width: 14.89362%; *width: 14.84043%; }
+
+.row-fluid .span1 { width: 6.38298%; *width: 6.32979%; }

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>nimtemplate</name>
+	<version>1.0</version>
+	<creationDate>6/20/2013</creationDate>
+	<author>Andy Moore</author>
+	<authorEmail>andy@nimfl.com</authorEmail>
+	<copyright>Copyright (C) 2013 New Internet Marketing. All rights reserved.</copyright>
+	<description>My First Responsive Template</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>jresize</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+	</files>
+	<positions>
+		<position>search</position>
+		<position>nav</position>
+		<position>left-top</position>
+		<position>right-top</position>
+		<position>left-of-content</position>
+		<position>below-content</position>
+		<position>slideshow</position>
+		<position>social</position>
+		<position>sidebar</position>
+		<position>footer</position>
+		<position>footmenu</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_nimtemplate.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_nimtemplate.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="templateColor" class="" type="color" default="#08C"
+					label="NIM_COLOR_LABEL"
+					description="NIM_COLOR_DESC" />
+
+				<field name="templateBackgroundColor" class="" type="color" default="#F4F6F7"
+					label="NIM_BACKGROUND_COLOR_LABEL"
+					description="NIM_BACKGROUND_COLOR_DESC" />
+
+				<field name="logoFile" class="" type="media" default=""
+					label="NIM_LOGO_LABEL"
+					description="NIM_LOGO_DESC" />
+					
+				<field name="sitetitle"  type="text" default=""
+					label="JGLOBAL_TITLE"
+					description="JFIELD_ALT_PAGE_TITLE_LABEL"
+					filter="string" />
+
+				<field name="sitedescription"  type="text" default=""
+					label="JGLOBAL_DESCRIPTION"
+					description="JGLOBAL_SUBHEADING_DESC"
+					filter="string" />
+
+				<field name="googleFont"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="NIM_FONT_LABEL"
+					description="NIM_FONT_DESC"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="googleFontName" class="" type="text" default="Open+Sans"
+					label="NIM_FONT_NAME_LABEL"
+					description="NIM_FONT_NAME_DESC" />
+
+				<field name="fluidContainer"
+					type="radio"
+					class="btn-group"
+					default="0"
+					label="NIM_FLUID_LABEL"
+					description="NIM_FLUID_DESC"
+				>
+					<option value="0">NIM_STATIC</option>
+					<option value="1">NIM_FLUID</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
